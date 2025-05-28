@@ -1,0 +1,28 @@
+{{ define "container" }}
+<div class="container">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 intro" >
+    <p>{{.Params.Intro}}</p>
+</div>
+
+
+{{ $counter := 0 }}
+{{ range  $area := .Params.research_areas}}
+    {{if eq (mod $counter 2) 0}}
+        <div class="row">
+        {{ $counter := 0 }}
+    {{end}}
+    {{ $counter = add $counter 1 }}
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 research-box"  >
+                <div class = "research-bkg-img">
+                    <div class = "blur" style = " background-image: url('{{($area.bkg_img | relURL)}}'); "></div>
+                    <img class="zoom research-fore-img" src="{{( $area.fore_img | relURL )}}">
+                    <h3>{{$area.name}}</h3>  
+                </div>
+                <p> {{$area.description}}</p>
+            </div>
+    {{if eq (mod $counter 2) 0}}
+        </div>
+    {{end}}    
+{{ end }}
+</div>
+{{ end }}

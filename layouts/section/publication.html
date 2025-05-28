@@ -1,0 +1,106 @@
+{{ define "container" }}
+<div class="container">
+<div class = "row">
+    <!-- publications -->
+    <div class = "col-lg-10 col-md-10 col-sm-10 col-xs-10 pubs-container" >
+        {{ $pubs := getJSON "data/pubs.json" }}
+        <!-- <h4 id = 'preprint'>Preprint</h4><hr>    
+        {{ range $pubs }}   
+            {{ $status := .PublicationStage}}
+            {{ if in (slice "Article" "Review" "Editorial" "Book Chapter" "Conference Paper") .DocumentType}}
+                {{if eq $status "Article in Progress"}}
+                    <h4><a href = "https://doi.org/{{.DOI}}" target = "_blank">{{.Title}}</a></h4>
+                    <p>{{.Authors}}</p>
+                    <p><strong><i>{{.Journal}}, {{.Year}}</i></strong></p>
+                    <br/>
+                {{end}}
+            {{end}}
+        {{end}} -->
+
+        {{ $pubs := getJSON "data/pubs.json" }}
+        {{ range $num := (seq 2022 2003)}} 
+            {{ $year := int .}}
+            <h3 id = '{{$year}}'>{{$year}}</h3><hr class = "smallcolor">    
+            {{ range $pubs }}   
+                {{ $status := .PublicationStage}}
+                {{ if in (slice "Article" "Review" "Editorial" "Book Chapter" "Conference Paper") .DocumentType}}
+                    {{if eq $year (int .Year)}} 
+                    <!-- (eq $status "Final") -->
+                        <h3><a href = "https://doi.org/{{.DOI}}" target = "_blank">{{.Title}}</a></h3>
+                        <p>{{.Authors}}</p>
+                        <p><strong><i>{{.Journal}}, {{.Year}}</i></strong></p>
+                        <br/>
+                    {{end}}
+                {{end}}
+            {{end}}
+        {{end}}
+    </div>
+    <!-- Sidebar -->
+    <div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 sidebar-container">
+        
+        <!-- <h5><a href = "#Preprint">Preprint</h5></a> -->
+        <div>
+            {{ range $num := (seq 2022 2003)}} 
+                <h5><a href = "#{{.}}">{{.}}</h5></a>
+            {{end}}
+        </div>
+        <div class="container-top">
+          <a href="#" class="backtotop"></a>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <div class = "row"> -->
+    <!-- publications -->
+    <!-- <div class = "col-lg-10 col-md-10 col-sm-9 col-xs-9 pubs-container" >
+        {{ $staff := getJSON "data/pubs.json" }}
+        {{ $currentyear := (int .Params.Year) }}
+        {{ $all:=  .Params.All }}
+
+
+
+        {{ range $staff }}
+            {{ $status := .PublicationStage}}
+            {{ if and (eq $status "Article in Press") (in (slice "Article" "Review" "Editorial" "Book Chapter" "Conference Paper") .DocumentType)}}
+                {{if or ($all) (eq $currentyear 0)}}
+                    <h4><a href = "https://doi.org/{{.DOI}}" target = "_blank">{{.Title}}</a></h4>
+                    <p>{{.Authors}}</p>
+                    <p><strong><i>{{.Journal}}</i></strong></p>
+                    <br/>
+                {{end}}
+            {{end}}
+        {{ end }}
+
+        {{ range $staff }}
+            {{ $status := .PublicationStage}}    
+            {{if and (eq $status "Final") (in (slice "Article" "Review" "Editorial" "Book Chapter" "Conference Paper") .DocumentType)}}
+                {{if $all}}
+                    <h4><a href = "https://doi.org/{{.DOI}}" target = "_blank">{{.Title}}</a></h4>
+                    <p>{{.Authors}}</p>
+                    <p><strong><i>{{.Journal}}</i></strong></p>
+                    <br/>
+                {{else if eq  (int .Year) $currentyear}}
+                    <h4><a href = "https://doi.org/{{.DOI}}" target = "_blank">{{.Title}}</a></h4>
+                    <p>{{.Authors}}</p>
+                    <p><strong><i>{{.Journal}}</i></strong></p>
+                    <br/>
+                {{end}}
+            {{end}}
+        {{ end }}
+    </div> -->
+
+    <!-- Sidebar -->
+    <!-- <div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-3 col-sm-offset-0 col-xs-3 col-xs-offset-0 sidebar-container">
+        
+        <h5><a href = "#Preprint">Preprint</h5></a>
+        
+
+        <div class="container-top">
+          <a href="#" class="backtotop"></a>
+        </div>
+    </div> -->
+<!-- </div> -->
+</div>
+{{ end }}
