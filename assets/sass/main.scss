@@ -12,6 +12,7 @@ body {
   font-size: 16px;
   // Hux mpdify to 16px (Mobile First), and increase to 20px while 768+ width
   color: $gray-dark;
+  background-color: $offwhite;
   //-webkit-user-select:text; //对于 Blog 还是先不开启这句。
   overflow-x: hidden;
 
@@ -510,87 +511,92 @@ footer {
 
 
 .intro-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertically center content */
+  background: no-repeat center center;
+  background-color: $offwhite;
+  background-attachment: scroll;
+  @include background-cover;
+  margin-bottom: 0px;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+
+  .site-heading,
+  .post-heading,
+  .page-heading {
+    padding: 40px 0 40px; /* reduced vertical padding */
+    color: $offwhite;
+    text-align: center;
+
+    @media only screen and (min-width: 768px) {
+      padding: 60px 0; /* less padding than before */
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 50px;
+
+      @media only screen and (min-width: 768px) {
+         font-size: clamp(40px, 8vw, 80px);
+      }
+    }
+
+    .subheading {
+      @include sans-serif;
+         font-size: clamp(11px, 8vw, 22px);
+
+      line-height: 1.1;
+      display: block;
+      font-weight: 300;
+      margin: 30px 0; /* reduced margin */
+    }
+  }
+
   &.style-text {
     background: none;
+
     .site-heading,
     .post-heading,
     .page-heading {
-      padding: 85px 0 20px;
+      padding: 40px 0 20px;
       color: $offwhite;
+
       .subheading {
         margin-bottom: 15px;
       }
     }
+
     .tags {
       a,
       .tag {
         border-color: $offwhite;
         color: $offwhite;
+
         &:hover,
         &:active {
           background-color: rgba(0, 0, 0, 0.05);
         }
+
         .publish_individual_column > a:hover .download_pdf_text {
           top: 85%;
         }
+
         .download_pdf_text {
           position: absolute;
           width: 100%;
           top: 100%;
           left: 50%;
-          transform: translate(-50%,-50%);
+          transform: translate(-50%, -50%);
           transition: 0.7s;
         }
       }
     }
   }
-  background: no-repeat center center;
-  background-color: $offwhite;
-  background-attachment: scroll;
-  @include background-cover;
-  // NOTE: Background images are set within the HTML using inline CSS!
-  margin-bottom: 0px; /* 0 on mobile, modify by Hux */
-  @media only screen and (min-width: 768px) {
-    margin-bottom: 20px; /* response on desktop */
-  }
-  .site-heading,
-  .post-heading,
-  .page-heading {
-    padding: 85px 0 55px;
-    color: $offwhite;
-    @media only screen and (min-width: 768px) {
-      padding: 150px 0;
-    }
-  }
-  // masterialize
-  .site-heading {
-    padding: 95px 0 70px;
-    @media only screen and (min-width: 768px) {
-      padding: 150px 0;
-    }
-  }
-  .site-heading,
-  .page-heading {
-    text-align: center;
-    h1 {
-      margin-top: 0;
-      font-size: 50px;
-    }
-    .subheading {
-      @include sans-serif;
-      font-size: 18px;
-      line-height: 1.1;
-      display: block;
-      font-weight: 300;
-      margin: 20px 0;
-    }
-    @media only screen and (min-width: 768px) {
-      h1 {
-        font-size: 80px;
-      }
-    }
-  }
 }
+
 
 
 // -- Highlight Color Customization
@@ -706,6 +712,7 @@ img::-moz-selection {
 .no-scroll {
   overflow-y: hidden;
 }
+
 
 // slider
 #background_image{
@@ -838,6 +845,7 @@ address {
 .section-overlay .container {
 	z-index:3;
 	position:relative;
+    background-color: transparent;
 }
 .section-overlay::after {
 	content:"";

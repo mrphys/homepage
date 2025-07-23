@@ -10,43 +10,48 @@ header_img: 'img/research.jpg'
 research_areas:  # number of research areas should be divisible by 3 or 4 for aesthetic reasons :)
     1:
         name: Image Acquisition & Reconstruction
-        brief_description: We are developing
-        description: We are developing new 
+        brief_description: Developing advanced imaging techniques.
+        description: Developing new methods for image acquisition and reconstruction to improve image quality and speed.
         bkg_img: img/research/recon_bkg.jpg
         fore_img: img/research/recon_fore.png
+        link: research/recon
     2:
         name: Deep Learning Post-Processing
-        brief_description: We are creating mac
-        description: We are creating machine
+        brief_description: Creating deep learning models for automated post-processing.
+        description: Creating deep learning models to perform segmentation and other post-processing tasks on medical images.
         bkg_img: img/research/seg_bkg.jpg
         fore_img: img/research/seg_fore.png
+        link: research/postprocessing
     3:
-        name: Multi-Nuclear Imaging
-        brief_description: We are researching 
-        description: We are researching sodium
-        bkg_img: img/research/na_bkg.jpg
-        fore_img: img/research/na_fore.png
+        name: Deep Learning Simulations
+        brief_description: Researching simulations of physics-based simulations from images.
+        description: Researching deep learning-based simulations to model and optimize imaging workflows.
+        bkg_img: img/research/sim_bkg.jpg
+        fore_img: img/research/sim_fore.png
+        link: research/simulation
 
     4:
         name: Exercise MRI
-        brief_description: We focus our research on 
-        description: We focus our research on 
-        bkg_img: img/research/heart_bkg.jpg
-        fore_img: img/research/heart_fore.png
+        brief_description: Studying MRI applications during physical activity.
+        description: Investigating MRI to analyze physiological changes and muscle function during exercise.
+        bkg_img: img/research/exer_bkg.jpg
+        fore_img: img/research/exer_fore.png
+        link: research/exercise_mri
 
     5:
         name: Interventional MRI
-        brief_description: We focus our research on 
-        description: We focus our research on 
-        bkg_img: img/research/heart_bkg.jpg
-        fore_img: img/research/heart_fore.png
+        brief_description: Researching MRI-guided interventions.
+        description: Developing real-time MRI techniques for guidance and monitoring of interventional procedures.
+        bkg_img: img/research/int_bkg.jpg
+        fore_img: img/research/int_fore.png
+        link: research/interventional_mri
 
     6:
-        name: Deep Learning Simulations
-        brief_description: We focus our research on
-        description: We focus our research on 
-        bkg_img: img/research/heart_bkg.jpg
-        fore_img: img/research/heart_fore.png
-
+        name: Multi-Nuclear MRI
+        brief_description: Investigating imaging using multiple nuclei.
+        description: Researching sodium and other nuclei imaging to provide complementary physiological information.
+        bkg_img: img/research/na_bkg.jpg
+        fore_img: img/research/na_fore.png
+        link: research/multinuclear_mri
 
 ---

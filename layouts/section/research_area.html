@@ -1,25 +1,56 @@
 {{ define "container" }}
 <div class="container">
 
-<main style="max-width: 800px; margin: 0 auto; padding: 2rem; text-align: center;">
+  <!-- Breadcrumb Navigation -->
+  <nav aria-label="breadcrumb" class="mt-4" style="padding-top: 2rem;">
+      <ol class="breadcrumb p-3 rounded" style="font-size: 2rem;">
+      <li class="breadcrumb-item"><a href="/homepage">Home</a></li>
+      <li class="breadcrumb-item"><a href="/homepage/research">Research</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+    </ol>
+  </nav>
 
-  <h1>{{ .Params.research_title }}</h1>
+  <main class="mx-auto" style="max-width: 1000px; padding: 3rem;">
 
-  {{ with .Params.research_description }}
-  <p style="font-size: 1.5rem; margin-bottom: 3rem; text-align: justify;">{{ . }}</p>
-  {{ end }}
-
-  {{ with .Params.images }}
-  <div class="container">
-    <div class="row justify-content-center">
+    <!-- Sections Loop -->
+    {{ with .Params.sections }}
       {{ range . }}
-        <div class="col-lg-4 col-md-6 col-sm-8 col-10 mb-4">
-            <img src="{{ . | relURL }}" />
+
+        <!-- Section Heading Full Width -->
+        {{ with .heading }}
+        <div class="row mb-3">
+          <div class="col-12 text-left">
+            <h3 style="font-size: 4rem;margin: 10px 0px 40px 0px;">{{ . }}</h3>
+          </div>
         </div>
+        {{ end }}
+
+        <!-- Text Full Width -->
+        <div class="row mb-4">
+          <div class="col-12" style="text-align: justify;">
+            {{ with .text }}
+            <p style="font-size: 2rem; margin: 0;">{{ . }}</p>
+            {{ end }}
+          </div>
+        </div>
+
+    {{ with .images }}
+      <div class="row" style="margin-top: 80px; margin-bottom: 100px;">
+        {{ range . }}
+            <div class="col-12 mb-3">
+
+            <img src="{{ . | relURL }}" alt="Section image" class="img-fluid" style="width: 100%; height: auto; max-height: 500px;" />
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+
+
+
       {{ end }}
-    </div>
-  </div>
-  {{ end }}
+    {{ end }}
+
+  </main>
 </div>
 
 {{ end }}

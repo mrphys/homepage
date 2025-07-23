@@ -1,0 +1,128 @@
+
+
+{{ define "container" }}
+<div class="container">
+
+  <!-- Breadcrumb Navigation -->
+  <nav aria-label="breadcrumb" style="margin-top: 1rem;">
+    <ol class="breadcrumb" style="padding: 0rem;">
+      <li class="breadcrumb-item"><a href="/homepage">Home</a></li>
+      <li class="breadcrumb-item"><a href="/homepage/research">Research</a></li>
+      <li class="breadcrumb-item active" aria-current="page" style="text-align: left;">{{ .Title }}</li>
+    </ol>
+  </nav>
+
+  <!-- <main style="max-width: 1000px; padding: 1rem;"> -->
+
+    <!-- Sections Loop -->
+    {{ with .Params.sections }}
+      {{ range . }}
+        <!-- Section Heading Full Width -->
+        {{ with .heading }}
+        <div class="row">
+            <div class="col-lg-12 col-md-12 mb-3" style="text-align: left;">
+            <h3>{{ . }}</h3>
+          </div>
+        </div>
+        {{ end }}
+
+        <!-- Text and Image Side-by-Side -->
+        <div class="row mb-5" style="align-items: flex-start;">
+          <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" style="text-align: justify;">
+            {{ with .text }}
+            <p style="font-size: 1.5rem;">{{ . }}</p>
+            {{ end }}
+          </div>
+
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+            {{ with .images }}
+            <div class="row">
+              {{ range . }}
+                <div class="col-lg-12 col-md-12 col-md-6  col-xs-12 " style="padding: 30px;">
+                <img src="{{ . | relURL }}" class="img-fluid" alt="Section image" style="display: block;" />
+              </div>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+
+
+        </div>
+
+
+      {{ end }}
+    {{ end }}
+
+  <!-- </main> -->
+</div>
+{{ end }}
+
+
+
+
+
+{{ define "container" }}
+<div class="container">
+
+  <!-- Breadcrumb Navigation -->
+  <nav aria-label="breadcrumb" style="margin-top: 1rem;">
+    <ol class="breadcrumb" style="padding: 0rem;">
+      <li class="breadcrumb-item"><a href="/homepage">Home</a></li>
+      <li class="breadcrumb-item"><a href="/homepage/research">Research</a></li>
+      <li class="breadcrumb-item active" aria-current="page" style="text-align: left;">{{ .Title }}</li>
+    </ol>
+  </nav>
+
+  <!-- <main style="max-width: 1000px; padding: 1rem;"> -->
+
+    <!-- Sections Loop -->
+    {{ with .Params.sections }}
+      {{ range . }}
+        <!-- Section Heading Full Width -->
+        {{ with .heading }}
+        <div class="row">
+            <div class="col-lg-12 col-md-12 mb-3" style="text-align: left;">
+            <h3>{{ . }}</h3>
+          </div>
+        </div>
+        {{ end }}
+
+        <!-- Text and Image Side-by-Side -->
+        <div class="row mb-5" style="align-items: flex-start;">
+          <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" style="text-align: justify;">
+            {{ with .text }}
+            <p style="font-size: 1.5rem;">{{ . }}</p>
+            {{ end }}
+          </div>
+
+          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+            {{ with .images }}
+            <div class="row">
+              {{ range . }}
+                <div class="col-lg-12 col-md-12 col-md-6  col-xs-12 " style="padding: 30px;">
+                <img src="{{ . | relURL }}" class="img-fluid" alt="Section image" style="display: block;" />
+              </div>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+
+
+        </div>
+
+
+      {{ end }}
+    {{ end }}
+
+  <!-- </main> -->
+</div>
+{{ end }}
+
+
+
+
+
+
+
+
+
