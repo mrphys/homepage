@@ -1,0 +1,78 @@
+baseURL: https://mrphys.github.io/
+title: Translational Cardiac MRI Group
+menu:
+  main:
+  - identifier: research
+    name: Research
+    url: /research/
+    weight: 10
+  - identifier: publications
+    name: Publications
+    url: /publications/
+    weight: 20
+  - identifier: people
+    name: People
+    url: /people/
+    weight: 30
+  - identifier: news
+    name: News
+    url: /news/
+    weight: 40
+  - identifier: contact
+    name: Contact
+    url: /contact/
+    weight: 100
+params:
+  description: Developing and validating novel methods of imaging the cardiovascular
+    system
+  img_home: img/home/banner.jpg
+  img_404: img/404.jpg
+  sponsors:
+  - img/sponsors/ucl.png
+  - img/sponsors/bhf.png
+  - img/sponsors/gosh.png
+  - img/sponsors/royalfree.png
+  email: rmhitly@ucl.ac.uk
+  social:
+    github: mrphys
+  highlighted_pubs:
+    1:
+      title: 'FReSCO: Flow Reconstruction and Segmentation for low-latency Cardiac
+        Output monitoring using deep artifact suppression and segmentation'
+      year: 2022
+      journal: Magnetic Resonance in Medicine
+      link: https://doi.org/10.1002/mrm.29374
+    2:
+      title: Deep artifact suppression for spiral real-time phase contrast cardiac
+        magnetic resonance imaging in congenital heart disease
+      year: 2021
+      journal: Magnetic Resonance Imaging
+      link: https://doi.org/10.1016/j.mri.2021.08.005
+    3:
+      title: Real-time deep artifact suppression using recurrent U-Nets for low-latency
+        cardiac MRI
+      year: 2021
+      journal: Magnetic Resonance in Medicine
+      link: https://doi.org/10.1002/mrm.28834
+    4:
+      title: 'The role of artificial intelligence in healthcare: a structured literature
+        review'
+      year: 2021
+      journal: BMC Medical Informatics and Decision Making
+      link: https://doi.org/10.1186/s12911-021-01488-9
+    5:
+      title: Reducing contrast agent dose in cardiovascular MR angiography with deep
+        learning
+      year: 2021
+      journal: Journal of Magnetic Resonance Imaging
+      link: https://doi.org/10.1002/jmri.27573
+    6:
+      title: Rapid 3D whole-heart cine imaging using golden ratio stack of spirals
+      year: 2020
+      journal: Magnetic Resonance Imaging
+      link: https://doi.org/10.1016/j.mri.2020.06.008
+    7:
+      title: Rapid whole-heart CMR with single volume super-resolution
+      year: 2020
+      journal: Journal of Cardiovascular Magnetic Resonance
+      link: https://doi.org/10.1186/s12968-020-00651-x

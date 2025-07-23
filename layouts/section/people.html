@@ -1,0 +1,97 @@
+{{ define "container" }}
+<div class="container">
+<h2>Lab Members</h2>
+<hr class = "smallcolor">
+<div >
+    {{ $counter := 0 }}
+    {{ range  $person := .Params.labmembers}}
+        {{if eq (mod $counter 2) 0}}
+            <div class="row">
+            {{ $counter := 0 }}
+        {{end}}
+        {{ $counter = add $counter 1 }}
+            
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 col-xs-offset-2 col-sm-offset-2 col-md-offset-0 col-lg-offset-0 research-box">
+                    <div class="row" style="margin-top: 10px">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 research-box">
+                        
+                            <div style="margin-bottom: 0px" >
+                                <img  width = '100%' src={{ $person.pic| relURL }}>			
+								<div class="fpwo-wrap" style="background-size: cover;">
+									<div class="fpwow-icons" style="background-size: cover; margin-bottom: =0px;">
+                                        {{if $person.scholar}}
+                                            <a href = '{{$person.scholar}}' target = "_blank">
+                                                <i class="fa fa-graduation-cap fa-2xl" aria-hidden="true"></i>
+                                            </a>
+                                        {{end}}
+
+                                        {{if $person.personal}}
+                                            <a href = '{{$person.personal}}' target = "_blank">
+                                                <i class="fa fa-user fa-2xl" aria-hidden="true"></i>
+                                            </a>
+                                        {{end}}
+                                        {{if $person.linkedin}}
+                                            <a href = "https://www.linkedin.com/in/{{$person.linkedin}}" target = "_blank">
+                                                <i class="fa fa-linkedin fa-2xl" aria-hidden="true"></i>
+                                            </a>
+										{{end}}
+                                        {{if $person.github}}
+                                            <a href = "https://github.com/{{$person.github}}" target = "_blank">
+                                                <i class="fa fa-github fa-2xl" aria-hidden="true"></i>
+                                            </a>
+                                        {{end}}
+									</div>
+								</div>
+							</div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 research-box">
+                            <h4>{{$person.name}}</h4>
+                            <p style="margin: 0;">{{$person.title}}</p>
+                            <p style="margin-bottom:0;">{{$person.bio}}</p>
+                        </div>
+                    </div>
+                </div>
+            
+        {{if eq (mod $counter 2) 0}}
+        </div>
+        {{end}}    
+    {{ end }}
+</div>
+<!-- 
+<h3>Collaborators</h3>
+<hr class = "smallcolor">
+<div>
+    {{ $counter := 0 }}
+    {{ range  $person := .Params.collaborators}}
+        {{if eq (mod $counter 2) 0}}
+            <div class="row">
+            {{ $counter := 0 }}
+        {{end}}
+        {{ $counter = add $counter 1 }}
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8">
+                    <div class="row" style="margin-bottom: 40px">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <img width = '100%' src={{ $person.pic| relURL }}>                                
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                            <h4>{{$person.name}}</h4>
+                            <p style="margin: 0;">{{$person.title}}</p>
+                        </div>
+                    </div>
+                </div>
+        {{if eq (mod (int $counter ) 2) 0}}
+            </div>
+        {{end}}    
+    {{ end }}
+</div> -->
+
+<h3>Previous Members</h3>
+<hr class = "smallcolor">
+<div>
+    {{ range $person := .Params.previousmembers}}
+        <p><strong>{{$person.name}}</strong>, {{$person.title}}<br>
+        Next position: {{$person.next}}</p>
+    {{ end }}
+</div>
+</div>
+{{ end }}

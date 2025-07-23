@@ -1,0 +1,23 @@
+{{ define "container" }}
+<div class = "container">
+    {{ $counter := 0 }}
+    <h3>Recent News</h1>
+    <hr class = "smallcolor">
+    {{ range  .Params.Articles}}
+        {{if eq (mod $counter 2) 0}}
+            <div class="row">
+            {{ $counter := 0 }}
+        {{end}}
+        {{ $counter = add $counter 1 }}
+            <a href = "{{.Link}}">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 "  >
+                    <h4 style = "font-size: 16px;">{{.Date}}</h4>  
+                    <p style = "font-size: 16px; margin: 10px 0;"> {{.Content}}</p>
+                </div>
+            </a>
+        {{if eq (mod $counter 2) 0}}
+            </div>
+        {{end}}    
+    {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,168 @@
+{{ define "container" }}
+
+
+{{ with .Site.GetPage "/research" }}
+	<div class = "background-banner " >
+		<!-- style="background-image: url('{{.Site.Params.Img_home_research}}');"> -->
+		<div class = "container">
+
+			<div style = "text-align: center;">
+				<h2>Our Research</h2>
+				<p style = "margin-top: 0;">{{.Params.Shortintro}}</p>
+				<a href = "{{ "research/" | relURL }}" ><button class="button" style = "margin-bottom: 15px;"><strong>Read More</strong></button></a>
+				<hr class = "color">
+				{{ $counter := 0 }}
+
+				{{ $colnum := len .Params.research_areas}}
+				{{ range  $area := .Params.research_areas}}
+					{{if eq (mod $counter 3) 0}}
+						<div class="row">
+						{{ $counter := 0 }}
+					{{end}}
+					{{ $counter = add $counter 1 }}
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-offset-2 col-xs-8 col-sm-offset-0 col-md-offset-0 col-lg-offset-0 research-box">
+								<img style = "width : 40%; filter: brightness(0) invert(0.25);" src="{{( $area.fore_img | relURL )}}">
+								<h4 style ="margin-top: 20px;">{{$area.name}}</h4>                  
+								<p style = "text-align: center; "> {{$area.brief_description}}</p>
+							</div>
+					{{if eq (mod $counter 3) 0}}
+						</div>
+					{{end}}    
+				{{ end }}
+			</div>
+		</div>
+	</div>
+{{end}}
+
+
+
+
+	<div class = "background-banner opac content-window__background" id="background_image" style="background-image: url('{{( "img/home/scroll.jpg"| relURL )}}');">
+		<div class="container" style = "text-align: center;">
+			<h2 style="color: #f8f8f8;">Publication Highlights</h2>
+			<div class="slider center" >
+				{{ range  $pub := .Site.Params.highlighted_pubs}}
+				<div class = "publishing_column_container" >
+					<div class="publish_individual_column" id = "background_image" style="height:300px;">
+						<a id="background_image" href="{{$pub.Link}}" target="_blank" >
+							<p class="title"><strong>{{$pub.Title}}</strong><br><br><small><i>{{$pub.Journal}}</i></small></p>
+							<p >{{$pub.Year}}</p>
+						</a>
+					</div>
+				</div>
+				{{end}}
+			</div>
+			<a href = "{{ "publications/" | relURL }}"><button style = "margin-bottom: 50px;"class="button"><strong>View All</strong></button></a>
+		</div>
+	</div>
+
+
+{{ with .Site.GetPage "/people" }}
+	<div class = "background-banner ">
+		<!-- style="background-image: url('{{.Site.Params.Img_home_research}}');"> -->
+		<div class="container" style = "text-align: center;">
+			<div>
+				<h2>Project Leads</h2>
+				<div style = "margin-top:10px; margin-bottom: 50px; ">
+					<div class="row justify-content-between">
+					
+					{{ $counter := 0 }}
+					{{ range  $person := .Params.labmembers}}			
+					{{ $counter = add $counter 1 }}
+					{{if le $counter 4}}
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-offset-2 col-xs-8 col-sm-offset-0 col-md-offset-0 col-lg-offset-0 research-box">
+						
+								<div style="margin-bottom: 40px" style = "position: relative;">
+									
+									<img width = '80%' src={{ $person.pic| relURL }}>		
+									<h4>{{$person.name}}</h4>
+									<p style="margin: 0;">{{$person.title}}</p>
+									
+								</div>
+							</div>	
+					{{end}}
+					{{ end }}
+					</div>
+					<a href = "{{ "people/" | relURL }}"><button class="button"><strong>Meet the Group</strong></button></a>
+				</div>  
+				
+			</div>
+		</div>
+	</div>
+{{end}}
+
+
+
+
+<!-- {{ with .Site.GetPage "/news" }}
+	<div class = "background-banner light_opac"  id="background_image" style="background-image: url('{{( "img/home/publications.jpg" | relURL )}}'); ">
+		<div class="container">
+			<h2 style = "color: $offwhite;">News</h2>
+			{{ $counter := 0 }}
+			{{ range  .Params.Articles}}
+				{{if eq (mod $counter 6) 0}}
+					<div class="row">
+					{{ $counter := 0 }}
+				{{end}}
+				{{ $counter = add $counter 1 }}
+					<a href = "{{.Link}}" style  = "color:#FFFFFF;">
+						<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 "  >
+							<h4 style = "font-size: 16px;">{{.Date}}</h4>  
+							<p style = "font-size: 16px; margin: 10px 0;"> {{.Content}}</p>
+						</div>
+					</a>
+				{{if eq (mod $counter 6) 0}}
+					</div>
+				{{end}}    
+			{{ end }}
+		</div>
+	</div>
+{{end}} -->
+
+{{ with .Site.GetPage "/contact" }}
+	<div class = "background-banner " >
+	<!-- style="background-image: url('{{.Site.Params.Img_home_research}}');"> -->
+	
+		<div class = "row" style = "height: 400px; margin:0;">
+			<div  class="col-lg-6 col-md-6 col-sm-12 col-xs-12 dark_opac"  id  = "background_image" style = "height: 400px; background-image: url('{{("img/home/address.jpg"| relURL )}}');">
+				<div id="contact-info" >
+					<div class="row">
+						<div class="address">
+							<!-- <p><img loading="lazy" class="alignnone size-medium" src= "{{( "img/logo.png" | relURL )}}" width="50"></p> -->
+							<p>
+								<strong>{{.Params.Name}}</strong><br>
+								{{.Params.Address}}<br>
+								20c Guilford St<br>
+								London<br>
+								WC1N 1DZ</p><br>
+								<button class="button"><strong>Contact Us</strong></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " style = "padding:0;">
+				<div style="-webkit-filter: grayscale(10%);text-align: center; filter: grayscale(10%);">
+					<iframe
+					  src={{.Params.Map}}
+					  width="100%" height="400px" scrolling="no" frameborder="no" clocktype="html5" style="border:0;" allowfullscreen="" loading="lazy"
+					  referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+{{end}}
+
+
+
+
+<!-- </div> -->
+
+
+
+
+
+
+</div>
+
+{{ end }}

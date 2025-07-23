@@ -1,0 +1,40 @@
+{{ define "container" }}
+<div class="container">
+  <h3>We're Hiring!</h3>
+  <hr class = "smallcolor">
+  <p>We're looking for a Postdoc:</p>
+  <ul>
+    <li>requirement a</li>
+    <li>requirement b</li>
+  </ul>
+
+
+  <p>If you would like to join as a PhD student get in touch or join one of these studentship programs:</p>
+  <ul>
+    <li> <a href = "https://www.ucl.ac.uk/intelligent-imaging-healthcare/">I4Health CDT</a><br></li>
+    <li><a href = "https://www.ucl.ac.uk/aihealth-cdt/study/ukri-ucl-centre-doctoral-training-ai-enabled-healthcare-systems">AI-enabled Healthcare Systems CDT</a><br></li>
+    <li><a href = "https://www.ucl.ac.uk/cardiovascular/study/bhf-cardiovascular-biomedicine-4-year-phd-studentships">BHF PhD Studentships</a></li>
+  </ul>
+
+  
+
+  <br><br>
+
+  
+  <h3>Get in Touch</h3>
+  <hr class = "smallcolor">
+  <p>{{.Params.Name}}<br>{{.Params.Address}}<br>Email: {{.Site.Params.Email}}</p>
+
+  
+
+
+
+  <div style="-webkit-filter: grayscale(10%);text-align: center; filter: grayscale(10%);">
+    <iframe
+      src={{.Params.Map}}
+      width="100%" height="400" scrolling="no" frameborder="no" clocktype="html5" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+{{ end }}

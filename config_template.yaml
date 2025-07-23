@@ -1,0 +1,35 @@
+baseURL:  https://mrphys.github.io/homepage/ #http://localhost:1313/test #
+title: "Translational Cardiac MRI Group"
+# relativeURLs: true
+
+menu:
+  main:
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 10
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 20
+    - identifier: people
+      name: People
+      url: /people/
+      weight: 30
+    - identifier: news
+      name: News
+      url: /news/
+      weight: 40    
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 100
+
+params:
+  description: Developing and validating novel methods of imaging the cardiovascular system
+  img_home: img/home/banner.jpg
+  img_404: img/404.jpg
+  sponsors: [img/sponsors/ucl.png, img/sponsors/bhf.png, img/sponsors/gosh.png, img/sponsors/royalfree.png]
+  email: rmhitly@ucl.ac.uk
+  social:
+    github: "mrphys"
