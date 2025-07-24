@@ -35,6 +35,13 @@ params:
   email: rmhitly@ucl.ac.uk
   social:
     github: mrphys
+  
+
+  useFaviconGenerator: false
+
+  # favicon:
+  #   favicon_ico: "favicon.ico"
+
   highlighted_pubs:
     1:
       title: A lumped parameter model of the coronary circulation incorporating time-varying

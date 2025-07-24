@@ -46,26 +46,29 @@
   position: relative;
   
   z-index: 1; 
-  img {position: relative; 
-      top: 25%;    
+  img {position: absolute; 
+      top: 35%;    
 
-      // transform: translateY(-50%);
     } 
-  h3 {position: relative;
-      top: 40% ;
-      transform: translateY(-50%); 
-      margin: 0 ; 
-      // color:#F70202;
-      color: white;
+  h3 {position: absolute;
+      top: 60%;                     // Center vertically
+      left: 50%;                    // Center horizontally
+      transform: translate(-50%, -50%); // Center correction
+      color: $offwhite;
     }
 }
 
-.research-fore-img{
-    // filter: brightness(0.3) invert(.7) sepia(.5) hue-rotate(310deg) saturate(4000%);
-    filter: brightness(0) invert(1);
-    height: 100px;
-    width: 100px;
+.research-fore-img {
+  position: absolute;
+  top: 50%;  
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  height: 100px;
+  width: 100px;
+  filter: brightness(0) invert(1);
 }
+
 
 .zoom {
   transition: transform .7s ease; /* Animation */

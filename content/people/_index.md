@@ -42,7 +42,7 @@ labmembers:
     scholar: 
     linkedin: 
 
-  - name: Tina Yao
+  - name: Rebecca Baker
     title: Postdoctoral Researcher
     bio: I am researching....
     pic: "img/people/rebecca.jpg"
@@ -51,7 +51,7 @@ labmembers:
     scholar: 
     linkedin: 
 
-  - name: Rebecca Baker
+  - name: Tina Yao
     title: Postdoctoral Fellow
     bio: I am researching....
     pic: "img/people/tina.jpg"
@@ -63,7 +63,7 @@ labmembers:
   - name: Mark Wrobel
     title: PhD Student
     bio: I am researching....
-    pic: "img/people/michele.jpg"
+    pic: "img/people/mark.jpg"
     github: 
     personal: 
     scholar: 
@@ -72,7 +72,7 @@ labmembers:
   - name: Yue Jiang
     title: PhD Student
     bio: I am researching....
-    pic: "img/people/sheena.jpg"
+    pic: "img/people/yue.jpg"
     github: 
     personal: 
     scholar: 
@@ -81,7 +81,7 @@ labmembers:
   - name: Wan Nur Hanisah Wan 
     title: PhD Student
     bio: I am researching....
-    pic: "img/people/sheena.jpg"
+    pic: "img/people/wan.jpg"
     github: 
     personal: 
     scholar: 
@@ -90,7 +90,7 @@ labmembers:
   - name: Francesca Kessler
     title: PhD Student
     bio: I am researching....
-    pic: "img/people/sheena.jpg"
+    pic: "img/people/francesca.jpg"
     github: 
     personal: 
     scholar: 
@@ -99,7 +99,7 @@ labmembers:
   - name: Ruaraidh Campbell
     title: PhD Student
     bio: I am researching....
-    pic: "img/people/sheena.jpg"
+    pic: "img/people/ruaraidh.jpg"
     github: 
     personal: 
     scholar: 
@@ -108,7 +108,7 @@ labmembers:
   - name: Anirudh Raman
     title: PhD Student
     bio: I am researching....
-    pic: "img/people/sheena.jpg"
+    pic: "img/people/ani.jpg"
     github: 
     personal: 
     scholar: 
@@ -117,7 +117,7 @@ labmembers:
   - name: Enhui Yong
     title: PhD Student
     bio: I am researching....
-    pic: "img/people/sheena.jpg"
+    pic: "img/people/enhui.jpg"
     github: 
     personal: 
     scholar: 
@@ -126,7 +126,7 @@ labmembers:
   - name: Charo Bruce
     title: Clinical PhD Student
     bio: I am researching....
-    pic: "img/people/sheena.jpg"
+    pic: "img/people/charo.jpg"
     github: 
     personal: 
     scholar: 
@@ -135,7 +135,7 @@ labmembers:
   - name: Catherine Beattie
     title: Clinical PhD Student
     bio: I am researching....
-    pic: "img/people/sheena.jpg"
+    pic: "img/people/cathy.jpg"
     github: 
     personal: 
     scholar: 
@@ -144,7 +144,7 @@ labmembers:
   - name: Niromila Nadarajan
     title: Clinical PhD Student
     bio: I am researching....
-    pic: "img/people/sheena.jpg"
+    pic: "img/people/niro.jpg"
     github: 
     personal: 
     scholar: 
