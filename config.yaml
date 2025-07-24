@@ -1,27 +1,27 @@
-baseURL: https://mrphys.github.io/homepage/
+baseURL: https://mrphys.github.io/
 title: Translational Cardiac MRI Group
 menu:
   main:
-  - identifier: research
-    name: Research
-    url: /research/
-    weight: 10
-  - identifier: publications
-    name: Publications
-    url: /publications/
-    weight: 20
-  - identifier: people
-    name: People
-    url: /people/
-    weight: 30
-  - identifier: news
-    name: News
-    url: /news/
-    weight: 40
-  - identifier: contact
-    name: Contact
-    url: /contact/
-    weight: 100
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 10
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 20
+    - identifier: people
+      name: People
+      url: /people/
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 100
 params:
   description: Developing and validating novel methods of imaging the cardiovascular
     system

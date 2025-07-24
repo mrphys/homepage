@@ -3,7 +3,12 @@ title: "Translational Cardiac MRI Group"
 # relativeURLs: true
 
 menu:
+menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
     - identifier: research
       name: Research
       url: /research/
@@ -16,10 +21,6 @@ menu:
       name: People
       url: /people/
       weight: 30
-    - identifier: news
-      name: News
-      url: /news/
-      weight: 40    
     - identifier: contact
       name: Contact
       url: /contact/
