@@ -98,8 +98,8 @@ labmembers:
 
   - name: Ruaraidh Campbell
     title: PhD Student
-    bio: I am researching....
-    pic: "img/people/ruaraidh.jpg"
+    bio: I am using computer vision techniques to uncover novel phenotypes in paediatric heart disease from cMRI images, to improve prediction of these patients' future disease course. This involves image segmentation, complex shape analysis, interpretable AI and statistical machine learning for prediction modeling. 
+    pic: "img/people/ruaraidh.jpeg"
     github: 
     personal: 
     scholar: 
