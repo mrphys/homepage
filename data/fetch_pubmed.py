@@ -1,6 +1,7 @@
 import requests
 import xml.etree.ElementTree as ET
 import pandas as pd
+import re
 import time
 
 def fetch_pubmed_ids(author, retmax=200):
@@ -149,10 +150,19 @@ for author in authors_list:
 
 
 df = pd.DataFrame(all_records).drop_duplicates('Title').sort_values('PublicationDate', ascending=False)
-# Define regex pattern for affiliation filtering
-affil_pattern = r'(?i)\b(UCL|University College London|Great Ormond Street|Royal Free|Cardiovascular Science)\b'
 
-# Keep only rows with matching affiliations
-df = df[df['Affiliations'].astype(str).str.contains(affil_pattern, na=False)]
+# Build a regex that matches whole phrases (case-insensitive), not substrings
+affiliations = [
+    "UCL",
+    "University College London",
+    "Great Ormond Street",
+    "Royal Free"
+]
+
+# Create pattern using lookarounds to enforce matching whole phrases
+affil_pattern = r'(?i)(?<!\w)(' + '|'.join(re.escape(a) for a in affiliations) + r')(?!\w)'
+
+# Filter
+df = df[df['Affiliations'].astype(str).str.contains(affil_pattern, na=False)].dropna()
 
 df.to_json('data/pubs.json', orient='records')

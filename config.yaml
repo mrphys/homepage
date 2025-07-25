@@ -1,27 +1,27 @@
-baseURL: https://mrphys.github.io/
+baseURL: https://mrphys.github.io/homepage/
 title: Translational Cardiac MRI Group
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 1
-    - identifier: research
-      name: Research
-      url: /research/
-      weight: 10
-    - identifier: publications
-      name: Publications
-      url: /publications/
-      weight: 20
-    - identifier: people
-      name: People
-      url: /people/
-      weight: 30
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 100
+  - identifier: home
+    name: Home
+    url: /
+    weight: 1
+  - identifier: research
+    name: Research
+    url: /research/
+    weight: 10
+  - identifier: publications
+    name: Publications
+    url: /publications/
+    weight: 20
+  - identifier: people
+    name: People
+    url: /people/
+    weight: 30
+  - identifier: contact
+    name: Contact
+    url: /contact/
+    weight: 100
 params:
   description: Developing and validating novel methods of imaging the cardiovascular
     system
@@ -35,13 +35,6 @@ params:
   email: rmhitly@ucl.ac.uk
   social:
     github: mrphys
-  
-
-  useFaviconGenerator: false
-
-  # favicon:
-  #   favicon_ico: "favicon.ico"
-
   highlighted_pubs:
     1:
       title: A lumped parameter model of the coronary circulation incorporating time-varying
@@ -87,20 +80,21 @@ params:
       journal: JACC. Heart failure
       link: https://doi.org/10.1016/j.jchf.2025.01.020
     8:
-      title: Serological Responses to Target Streptococcus pyogenes Vaccine Antigens
-        in Patients With Proven Invasive β-Hemolytic Streptococcal Infections.
+      title: 'Predicting Peri-Operative Cardiorespiratory Adverse Events in Children
+        with Idiopathic Pulmonary Arterial Hypertension Undergoing Cardiac Catheterization
+        Using Echocardiography: A Cohort Study.'
       year: 2025
-      journal: The Journal of infectious diseases
-      link: https://doi.org/10.1093/infdis/jiae496
+      journal: Pediatric cardiology
+      link: https://doi.org/10.1007/s00246-024-03447-3
     9:
-      title: The contribution of genetic determinants of blood gene expression and
-        splicing to molecular phenotypes and health outcomes.
+      title: A machine learning algorithm for creating isotropic 3D aortic segmentations
+        from routine cardiac MR localizers.
       year: 2025
-      journal: Nature genetics
-      link: https://doi.org/10.1038/s41588-025-02096-3
+      journal: Magnetic resonance imaging
+      link: https://doi.org/10.1016/j.mri.2024.110253
     10:
-      title: 'CiFi: Accurate long-read chromatin conformation capture with low-input
-        requirements.'
-      year: 2025
-      journal: 'bioRxiv : the preprint server for biology'
-      link: https://doi.org/10.1101/2025.01.31.635566
+      title: Cardiac MRI Predictors of Arrhythmic Sudden Cardiac Events in Patients
+        With Fontan Circulation.
+      year: 2024
+      journal: Journal of the American College of Cardiology
+      link: https://doi.org/10.1016/j.jacc.2024.08.063

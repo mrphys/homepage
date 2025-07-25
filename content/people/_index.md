@@ -19,7 +19,7 @@ labmembers:
     title: UKRI Future Leaders Fellow
     bio: I am researching....
     pic: "img/people/jenny.jpeg"
-    github: mrphys 
+    github:  jennifersteeden
     personal: https://iris.ucl.ac.uk/iris/browse/profile?upi=JAEDG41
     scholar: https://scholar.google.com/citations?user=hEfovLsAAAAJ&hl=en
     linkedin: 
@@ -46,7 +46,7 @@ labmembers:
     title: Postdoctoral Researcher
     bio: I am researching....
     pic: "img/people/rebecca.jpg"
-    github: 
+    github: rrbaker-mri
     personal: 
     scholar: 
     linkedin: 
@@ -64,7 +64,7 @@ labmembers:
     title: PhD Student
     bio: I am researching....
     pic: "img/people/mark.jpg"
-    github: 
+    github: MarkWrobelUCL
     personal: 
     scholar: 
     linkedin: 
@@ -73,7 +73,7 @@ labmembers:
     title: PhD Student
     bio: I am researching....
     pic: "img/people/yue.jpg"
-    github: 
+    github: JoyceYJ01
     personal: 
     scholar: 
     linkedin: 
@@ -82,7 +82,7 @@ labmembers:
     title: PhD Student
     bio: I am researching....
     pic: "img/people/wan.jpg"
-    github: 
+    github: whanisa
     personal: 
     scholar: 
     linkedin: 
@@ -91,7 +91,7 @@ labmembers:
     title: PhD Student
     bio: I am researching....
     pic: "img/people/francesca.jpg"
-    github: 
+    github: FranKessl
     personal: 
     scholar: 
     linkedin: 
@@ -100,18 +100,18 @@ labmembers:
     title: PhD Student
     bio: I am using image segmentation, shape analysis, interpretable AI and statistical machine learning to uncover novel phenotypes in paediatric heart disease from cMRI images, to improve prediction of patient trajectories.
     pic: "img/people/ruaraidh.jpeg"
-    github: 
-    personal: 
-    scholar: 
+    github: RASCampbell
+    personal: https://profiles.ucl.ac.uk/96130-ruaraidh-campbell
+    scholar: https://scholar.google.com/citations?user=VJ2iQXIAAAAJ&hl=en
     linkedin: 
 
   - name: Anirudh Raman
     title: PhD Student
     bio: I am researching....
     pic: "img/people/ani.jpg"
-    github: 
+    github: aniraman1
     personal: 
-    scholar: 
+    scholar: https://scholar.google.com/citations?user=UtTVemuvmbcC&hl=en
     linkedin: 
 
   - name: Enhui Yong
