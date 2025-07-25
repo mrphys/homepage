@@ -52,8 +52,8 @@ labmembers:
     linkedin: 
 
   - name: Tina Yao
-    title: Postdoctoral Fellow
-    bio: I am researching....
+    title: Postdoctoral Researcher
+    bio: I research the development of deep learning models for medical image analysis, with a focus on segmentation applied to large-scale MRI registry data and the creation of digital twins for physical modeling.
     pic: "img/people/tina.jpg"
     github: ti-yao
     personal: 
@@ -98,7 +98,7 @@ labmembers:
 
   - name: Ruaraidh Campbell
     title: PhD Student
-    bio: I am using computer vision techniques to uncover novel phenotypes in paediatric heart disease from cMRI images, to improve prediction of these patients' future disease course. This involves image segmentation, complex shape analysis, interpretable AI and statistical machine learning for prediction modeling. 
+    bio: I am using image segmentation, shape analysis, interpretable AI and statistical machine learning to uncover novel phenotypes in paediatric heart disease from cMRI images, to improve prediction of patient trajectories.
     pic: "img/people/ruaraidh.jpeg"
     github: 
     personal: 
