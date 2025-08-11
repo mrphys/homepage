@@ -8,7 +8,7 @@ header_img: 'img/people.jpg'
 labmembers:
   - name: Vivek Muthurangu
     title: Professor of Cardiovascular Imaging and Physics 
-    bio: I am researching....
+    bio: Center Co-Lead
     pic: "img/people/vivek.png"
     github: mrphys
     personal: https://iris.ucl.ac.uk/iris/browse/profile?upi=VMUTH99
@@ -17,8 +17,8 @@ labmembers:
 
   - name: Jennifer Steeden
     title: UKRI Future Leaders Fellow
-    bio: I am researching....
-    pic: "img/people/jenny.jpeg"
+    bio: Center Co-Lead
+    pic: "img/people/jenny.jpg"
     github:  jennifersteeden
     personal: https://iris.ucl.ac.uk/iris/browse/profile?upi=JAEDG41
     scholar: https://scholar.google.com/citations?user=hEfovLsAAAAJ&hl=en
@@ -26,7 +26,7 @@ labmembers:
 
   - name: Dan Knight
     title: Consultant Cardiologist
-    bio: I am researching....
+    bio: 
     pic: "img/people/dan.jpg"
     github: 
     personal: 
@@ -35,7 +35,7 @@ labmembers:
 
   - name: Michael Quail
     title: Honorary Associate Professor
-    bio: I am researching....
+    bio: 
     pic: "img/people/olivier.jpg"
     github: 
     personal: https://profiles.ucl.ac.uk/1670-michael-quail 
@@ -44,7 +44,7 @@ labmembers:
 
   - name: Rebecca Baker
     title: Postdoctoral Researcher
-    bio: I am researching....
+    bio: 
     pic: "img/people/rebecca.jpg"
     github: rrbaker-mri
     personal: 
@@ -53,8 +53,8 @@ labmembers:
 
   - name: Tina Yao
     title: Postdoctoral Researcher
-    bio: I research the development of deep learning models for medical image analysis, with a focus on segmentation applied to large-scale MRI registry data and the creation of digital twins for physical modeling.
-    pic: "img/people/tina.jpg"
+    bio:
+    pic: "img/people/tina.jpeg"
     github: ti-yao
     personal: 
     scholar: https://scholar.google.com/citations?user=KDqWTkgAAAAJ&hl=en
@@ -62,7 +62,7 @@ labmembers:
 
   - name: Mark Wrobel
     title: PhD Student
-    bio: I am researching....
+    bio: 
     pic: "img/people/mark.jpg"
     github: MarkWrobelUCL
     personal: 
@@ -71,8 +71,8 @@ labmembers:
 
   - name: Yue Jiang
     title: PhD Student
-    bio: I am researching....
-    pic: "img/people/yue.jpg"
+    bio: 
+    pic: "img/people/jiangyue.jpeg"
     github: JoyceYJ01
     personal: 
     scholar: 
@@ -80,7 +80,7 @@ labmembers:
 
   - name: Wan Nur Hanisah Wan 
     title: PhD Student
-    bio: I am researching....
+    bio: 
     pic: "img/people/wan.jpg"
     github: whanisa
     personal: 
@@ -89,7 +89,7 @@ labmembers:
 
   - name: Francesca Kessler
     title: PhD Student
-    bio: I am researching....
+    bio: 
     pic: "img/people/francesca.jpg"
     github: FranKessl
     personal: 
@@ -98,7 +98,7 @@ labmembers:
 
   - name: Ruaraidh Campbell
     title: PhD Student
-    bio: I am using image segmentation, shape analysis, interpretable AI and statistical machine learning to uncover novel phenotypes in paediatric heart disease from cMRI images, to improve prediction of patient trajectories.
+    bio: 
     pic: "img/people/ruaraidh.jpeg"
     github: RASCampbell
     personal: https://profiles.ucl.ac.uk/96130-ruaraidh-campbell
@@ -107,7 +107,7 @@ labmembers:
 
   - name: Anirudh Raman
     title: PhD Student
-    bio: I am researching....
+    bio: 
     pic: "img/people/ani.jpg"
     github: aniraman1
     personal: 
@@ -116,8 +116,8 @@ labmembers:
 
   - name: Enhui Yong
     title: PhD Student
-    bio: I am researching....
-    pic: "img/people/enhui.jpg"
+    bio: 
+    pic: "img/people/enhui.jpeg"
     github: 
     personal: 
     scholar: 
@@ -125,7 +125,7 @@ labmembers:
 
   - name: Charo Bruce
     title: Clinical PhD Student
-    bio: I am researching....
+    bio: 
     pic: "img/people/charo.jpg"
     github: 
     personal: 
@@ -134,7 +134,7 @@ labmembers:
 
   - name: Catherine Beattie
     title: Clinical PhD Student
-    bio: I am researching....
+    bio: 
     pic: "img/people/cathy.jpg"
     github: 
     personal: 
@@ -143,7 +143,7 @@ labmembers:
 
   - name: Niromila Nadarajan
     title: Clinical PhD Student
-    bio: I am researching....
+    bio: 
     pic: "img/people/niro.jpg"
     github: 
     personal: 

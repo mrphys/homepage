@@ -21,13 +21,11 @@
         {{ $counter = add $counter 1 }}
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-offset-2 col-xs-8 col-sm-offset-0 col-md-offset-0 col-lg-offset-0">
-          <a href="{{ $area.link | relURL }}" class="text-decoration-none text-dark">
             <div class="research-box">
               <img style="width: 40%; filter: brightness(0) invert(0.25);" src="{{ $area.fore_img | relURL }}">
               <h4 style="margin-top: 20px; margin-bottom: -20px;">{{ $area.name }}</h4>
               <p style="text-align: center;">{{ $area.brief_description }}</p>
             </div>
-          </a>
         </div>
 
         {{ if eq (mod $counter 3) 0 }}

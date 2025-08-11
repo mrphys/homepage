@@ -6,10 +6,6 @@ menu:
     name: Home
     url: /
     weight: 1
-  - identifier: research
-    name: Research
-    url: /research/
-    weight: 10
   - identifier: publications
     name: Publications
     url: /publications/
@@ -18,10 +14,6 @@ menu:
     name: People
     url: /people/
     weight: 30
-  - identifier: contact
-    name: Contact
-    url: /contact/
-    weight: 100
 params:
   description: Developing and validating novel methods of imaging the cardiovascular
     system
