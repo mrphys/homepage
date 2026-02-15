@@ -29,22 +29,22 @@ params:
     github: mrphys
   highlighted_pubs:
     1:
+      title: Myocardial Amyloid Burden in Transthyretin Amyloidosis.
+      year: 2026
+      journal: Journal of the American College of Cardiology
+      link: https://doi.org/10.1016/j.jacc.2025.10.054
+    2:
       title: 'Transthyretin amyloid cardiomyopathy: natural history and treatment
         response assessed by cardiovascular magnetic resonance.'
       year: 2025
       journal: European heart journal
       link: https://doi.org/10.1093/eurheartj/ehaf412
-    2:
+    3:
       title: 'Defining diastolic dysfunction post-Fontan: Threshold, risk factors,
         and associations with outcomes.'
       year: 2025
       journal: American heart journal
       link: https://doi.org/10.1016/j.ahj.2025.07.007
-    3:
-      title: Myocardial Amyloid Burden in Transthyretin Amyloidosis.
-      year: 2025
-      journal: Journal of the American College of Cardiology
-      link: https://doi.org/10.1016/j.jacc.2025.10.054
     4:
       title: Fully automated measurement of aortic pulse wave velocity from routine
         cardiac MRI studies.
