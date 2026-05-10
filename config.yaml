@@ -29,13 +29,31 @@ params:
     github: mrphys
   highlighted_pubs:
     1:
+      title: 'Determining the Physiological Threshold for Angina (ORBITA-FIRE): A
+        Double-Blind, Randomized, Placebo-Controlled Study.'
+      year: 2026
+      journal: Circulation
+      link: https://doi.org/10.1161/CIRCULATIONAHA.125.078738
+    2:
+      title: 'Real-Time, Inline Quantitative MRI Enabled by Scanner-Integrated Machine
+        Learning: A Proof of Principle With NODDI.'
+      year: 2026
+      journal: Magnetic resonance in medicine
+      link: https://doi.org/10.1002/mrm.70388
+    3:
+      title: Multi-Center Comparison of Hybrid and Norwood Procedure in Patients with
+        Fontan Circulation.
+      year: 2026
+      journal: The Journal of thoracic and cardiovascular surgery
+      link: https://doi.org/10.1016/j.jtcvs.2026.04.005
+    4:
       title: Long-term effects of medical therapy pre- and post-pulmonary endarterectomy-insights
         from the UK CURATE registry.
       year: 2026
       journal: 'The Journal of heart and lung transplantation : the official publication
         of the International Society for Heart Transplantation'
       link: https://doi.org/10.1016/j.healun.2026.03.020
-    2:
+    5:
       title: 'Sotatercept improves right ventricular function but is associated with
         new or worsening pericardial effusions: a CMR study in intermediate-high risk
         PAH.'
@@ -43,52 +61,33 @@ params:
       journal: 'Journal of cardiovascular magnetic resonance : official journal of
         the Society for Cardiovascular Magnetic Resonance'
       link: https://doi.org/10.1016/j.jocmr.2026.102714
-    3:
+    6:
       title: Deep learning for vessel segmentation and flow analysis to identify clusters
         associated with adverse outcomes in a fontan patient registry.
       year: 2026
       journal: Scientific reports
       link: https://doi.org/10.1038/s41598-026-40738-6
-    4:
+    7:
       title: 'Current State of RV Multimodality Imaging in Pediatric Pulmonary Hypertension:
         Current Evidence, Knowledge Gaps, and Future Research Directions.'
       year: 2026
       journal: Circulation. Cardiovascular imaging
       link: https://doi.org/10.1161/CIRCIMAGING.125.019264
-    5:
+    8:
       title: 'Open-Source Pre-Clinical Image Segmentation: Mouse cardiac MRI datasets
         with a deep learning segmentation framework.'
       year: 2026
       journal: 'Journal of cardiovascular magnetic resonance : official journal of
         the Society for Cardiovascular Magnetic Resonance'
       link: https://doi.org/10.1016/j.jocmr.2026.102706
-    6:
+    9:
       title: Myocardial Amyloid Burden in Transthyretin Amyloidosis.
       year: 2026
       journal: Journal of the American College of Cardiology
       link: https://doi.org/10.1016/j.jacc.2025.10.054
-    7:
+    10:
       title: Atrial Mechanical Contraction Predicts Cerebrovascular Risk in Patients
         With Transthyretin Amyloid Cardiomyopathy and Sinus Rhythm.
       year: 2026
       journal: Journal of the American College of Cardiology
       link: https://doi.org/10.1016/j.jacc.2025.12.033
-    8:
-      title: 'Systemic sclerosis-associated pulmonary arterial hypertension and pulmonary
-        fibrosis: exploring biomarker discriminators with advanced omics in a Caucasian
-        cohort.'
-      year: 2026
-      journal: Frontiers in immunology
-      link: https://doi.org/10.3389/fimmu.2026.1755076
-    9:
-      title: 'Transthyretin amyloid cardiomyopathy: natural history and treatment
-        response assessed by cardiovascular magnetic resonance.'
-      year: 2025
-      journal: European heart journal
-      link: https://doi.org/10.1093/eurheartj/ehaf412
-    10:
-      title: 'Defining diastolic dysfunction post-Fontan: Threshold, risk factors,
-        and associations with outcomes.'
-      year: 2025
-      journal: American heart journal
-      link: https://doi.org/10.1016/j.ahj.2025.07.007
