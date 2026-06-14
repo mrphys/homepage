@@ -29,58 +29,56 @@ params:
     github: mrphys
   highlighted_pubs:
     1:
+      title: 'Determining the Physiological Threshold for Angina (ORBITA-FIRE): A
+        Double-Blind, Randomized, Placebo-Controlled Study.'
+      year: 2026
+      journal: Circulation
+      link: https://doi.org/10.1161/CIRCULATIONAHA.125.078738
+    2:
+      title: Significance of echocardiographic metrics including TRV and TAPSE/SPAP
+        in mild haemodynamic pulmonary hypertension - data from EVIDENCE-PAH UK.
+      year: 2026
+      journal: Echo research and practice
+      link: https://doi.org/10.1186/s44156-026-00119-1
+    3:
       title: 'Repurposing Empagliflozin for Duchenne Muscular Dystrophy-Associated
         Cardiomyopathy: Protocol for a Pharmacokinetics, Safety and Proof-of-Concept
         Trial in Children.'
       year: 2026
       journal: Cardiology and therapy
       link: https://doi.org/10.1007/s40119-026-00456-6
-    2:
+    4:
       title: 'Measuring Atrioventricular Valve Regurgitation in Fontan Patients Using
         Cardiac MRI and the Association with Clinical Outcomes: A FORCE Study.'
       year: 2026
       journal: 'Journal of cardiovascular magnetic resonance : official journal of
         the Society for Cardiovascular Magnetic Resonance'
       link: https://doi.org/10.1016/j.jocmr.2026.102748
-    3:
+    5:
       title: 'Exploration of Arrhythmia Burden in Cardiac Amyloidosis Using Implantable
         Loop Recorders: The EXCALIBUR Study.'
       year: 2026
       journal: Journal of the American College of Cardiology
       link: https://doi.org/10.1016/j.jacc.2026.04.030
-    4:
-      title: 'Determining the Physiological Threshold for Angina (ORBITA-FIRE): A
-        Double-Blind, Randomized, Placebo-Controlled Study.'
-      year: 2026
-      journal: Circulation
-      link: https://doi.org/10.1161/CIRCULATIONAHA.125.078738
-    5:
+    6:
       title: 'Real-Time, Inline Quantitative MRI Enabled by Scanner-Integrated Machine
         Learning: A Proof of Principle With NODDI.'
       year: 2026
       journal: Magnetic resonance in medicine
       link: https://doi.org/10.1002/mrm.70388
-    6:
+    7:
       title: Multicenter comparison of hybrid and Norwood procedures in patients with
         Fontan circulation.
       year: 2026
       journal: The Journal of thoracic and cardiovascular surgery
       link: https://doi.org/10.1016/j.jtcvs.2026.04.005
-    7:
+    8:
       title: Long-term effects of medical therapy pre- and post-pulmonary endarterectomy-insights
         from the UK CURATE registry.
       year: 2026
       journal: 'The Journal of heart and lung transplantation : the official publication
         of the International Society for Heart Transplantation'
       link: https://doi.org/10.1016/j.healun.2026.03.020
-    8:
-      title: 'Sotatercept improves right ventricular function but is associated with
-        new or worsening pericardial effusions: a cardiovascular magnetic resonance
-        study in intermediate-high risk pulmonary arterial hypertension.'
-      year: 2026
-      journal: 'Journal of cardiovascular magnetic resonance : official journal of
-        the Society for Cardiovascular Magnetic Resonance'
-      link: https://doi.org/10.1016/j.jocmr.2026.102714
     9:
       title: Deep learning for vessel segmentation and flow analysis to identify clusters
         associated with adverse outcomes in a fontan patient registry.
