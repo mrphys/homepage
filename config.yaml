@@ -29,67 +29,64 @@ params:
     github: mrphys
   highlighted_pubs:
     1:
+      title: 'Repurposing Empagliflozin for Duchenne Muscular Dystrophy-Associated
+        Cardiomyopathy: Protocol for a Pharmacokinetics, Safety and Proof-of-Concept
+        Trial in Children.'
+      year: 2026
+      journal: Cardiology and therapy
+      link: https://doi.org/10.1007/s40119-026-00456-6
+    2:
       title: Long-term effects of medical therapy pre- and post-pulmonary endarterectomy-insights
         from the UK CURATE registry.
       year: 2026
       journal: 'The Journal of heart and lung transplantation : the official publication
         of the International Society for Heart Transplantation'
       link: https://doi.org/10.1016/j.healun.2026.03.020
-    2:
-      title: 'Oral food challenge unmasks porto-systemic shunting: a case report of
-        a novel provocation test for congenital porto-systemic shunts.'
-      year: 2026
-      journal: European heart journal. Case reports
-      link: https://doi.org/10.1093/ehjcr/ytag601
     3:
-      title: Inherited salt retention is associated with increased IL-17 responses
-        and autoimmunity.
-      year: 2026
-      journal: JCI insight
-      link: https://doi.org/10.1172/jci.insight.206932
-    4:
-      title: A minimally invasive pre-operative measure of total pulmonary resistance
-        is associated with early adverse outcomes following total cavopulmonary connection.
-      year: 2026
-      journal: European heart journal. Imaging methods and practice
-      link: https://doi.org/10.1093/ehjimp/qyag126
-    5:
-      title: Reduced regadenoson dose using heart rate-targeted titration in paediatric
-        stress perfusion CMR.
-      year: 2026
-      journal: European heart journal. Imaging methods and practice
-      link: https://doi.org/10.1093/ehjimp/qyag108
-    6:
-      title: 'Real-Time, Inline Quantitative MRI Enabled by Scanner-Integrated Machine
-        Learning: A Proof of Principle With NODDI.'
-      year: 2026
-      journal: Magnetic resonance in medicine
-      link: https://doi.org/10.1002/mrm.70388
-    7:
       title: Rapid online deep artifact suppression for real-time spiral bSSFP CMR
         with blipped-CAIPI simultaneous multi-slice imaging at 1.5 T.
       year: 2026
       journal: Magnetic resonance imaging
       link: https://doi.org/10.1016/j.mri.2026.110751
-    8:
-      title: High Resolution Isotropic 'Pseudo' 3D Cine imaging with Automated Segmentation
-        using Concatenated 2D Real-time Imaging and Deep Learning.
-      year: 2026
-      journal: 'Journal of cardiovascular magnetic resonance : official journal of
-        the Society for Cardiovascular Magnetic Resonance'
-      link: https://doi.org/10.1016/j.jocmr.2026.102780
-    9:
+    4:
       title: Training Deep Learning Based Dynamic MR Image Reconstruction Using Synthetic
         Fractals.
       year: 2026
       journal: Magnetic resonance in medicine
       link: https://doi.org/10.1002/mrm.70521
-    10:
-      title: 'Standardized Reporting of Cardiac Magnetic Resonance Examinations in
-        Children With Cardiac Diseases and Adults With Congenital Heart Disease: A
-        Scientific Statement From the Association for European Pediatric and Congenital
-        Cardiology (AEPC) and the International Society for Magnetic Resonance in
-        Medicine (ISMRM).'
+    5:
+      title: 'Determining the Physiological Threshold for Angina (ORBITA-FIRE): A
+        Double-Blind, Randomized, Placebo-Controlled Study.'
       year: 2026
-      journal: 'Journal of magnetic resonance imaging : JMRI'
-      link: https://doi.org/10.1002/jmri.70440
+      journal: Circulation
+      link: https://doi.org/10.1161/CIRCULATIONAHA.125.078738
+    6:
+      title: Significance of echocardiographic metrics including TRV and TAPSE/SPAP
+        in mild haemodynamic pulmonary hypertension - data from EVIDENCE-PAH UK.
+      year: 2026
+      journal: Echo research and practice
+      link: https://doi.org/10.1186/s44156-026-00119-1
+    7:
+      title: 'Exploration of Arrhythmia Burden in Cardiac Amyloidosis Using Implantable
+        Loop Recorders: The EXCALIBUR Study.'
+      year: 2026
+      journal: Journal of the American College of Cardiology
+      link: https://doi.org/10.1016/j.jacc.2026.04.030
+    8:
+      title: Myocardial Amyloid Burden in Transthyretin Amyloidosis.
+      year: 2026
+      journal: Journal of the American College of Cardiology
+      link: https://doi.org/10.1016/j.jacc.2025.10.054
+    9:
+      title: Atrial Mechanical Contraction Predicts Cerebrovascular Risk in Patients
+        With Transthyretin Amyloid Cardiomyopathy and Sinus Rhythm.
+      year: 2026
+      journal: Journal of the American College of Cardiology
+      link: https://doi.org/10.1016/j.jacc.2025.12.033
+    10:
+      title: 'Systemic sclerosis-associated pulmonary arterial hypertension and pulmonary
+        fibrosis: exploring biomarker discriminators with advanced omics in a Caucasian
+        cohort.'
+      year: 2026
+      journal: Frontiers in immunology
+      link: https://doi.org/10.3389/fimmu.2026.1755076
