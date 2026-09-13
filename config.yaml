@@ -29,64 +29,63 @@ params:
     github: mrphys
   highlighted_pubs:
     1:
-      title: 'Repurposing Empagliflozin for Duchenne Muscular Dystrophy-Associated
-        Cardiomyopathy: Protocol for a Pharmacokinetics, Safety and Proof-of-Concept
-        Trial in Children.'
+      title: Rapid online deep artifact suppression for real-time spiral bSSFP CMR
+        with blipped-CAIPI simultaneous multi-slice imaging at 1.5 T.
       year: 2026
-      journal: Cardiology and therapy
-      link: https://doi.org/10.1007/s40119-026-00456-6
+      journal: Magnetic resonance imaging
+      link: https://doi.org/10.1016/j.mri.2026.110751
     2:
+      title: 'The Fontan Circulation: When Net Flow Is Not the Whole Story.'
+      year: 2026
+      journal: JACC. Basic to translational science
+      link: https://doi.org/10.1016/j.jacbts.2026.101703
+    3:
+      title: Multicenter comparison of hybrid and Norwood procedures in patients with
+        Fontan circulation.
+      year: 2026
+      journal: The Journal of thoracic and cardiovascular surgery
+      link: https://doi.org/10.1016/j.jtcvs.2026.04.005
+    4:
       title: Long-term effects of medical therapy pre- and post-pulmonary endarterectomy-insights
         from the UK CURATE registry.
       year: 2026
       journal: 'The Journal of heart and lung transplantation : the official publication
         of the International Society for Heart Transplantation'
       link: https://doi.org/10.1016/j.healun.2026.03.020
-    3:
-      title: Rapid online deep artifact suppression for real-time spiral bSSFP CMR
-        with blipped-CAIPI simultaneous multi-slice imaging at 1.5 T.
+    5:
+      title: 'Oral food challenge unmasks porto-systemic shunting: a case report of
+        a novel provocation test for congenital porto-systemic shunts.'
       year: 2026
-      journal: Magnetic resonance imaging
-      link: https://doi.org/10.1016/j.mri.2026.110751
-    4:
-      title: Training Deep Learning Based Dynamic MR Image Reconstruction Using Synthetic
-        Fractals.
+      journal: European heart journal. Case reports
+      link: https://doi.org/10.1093/ehjcr/ytag601
+    6:
+      title: 'Repurposing Empagliflozin for Duchenne Muscular Dystrophy-Associated
+        Cardiomyopathy: Protocol for a Pharmacokinetics, Safety and Proof-of-Concept
+        Trial in Children.'
+      year: 2026
+      journal: Cardiology and therapy
+      link: https://doi.org/10.1007/s40119-026-00456-6
+    7:
+      title: Inherited salt retention is associated with increased IL-17 responses
+        and autoimmunity.
+      year: 2026
+      journal: JCI insight
+      link: https://doi.org/10.1172/jci.insight.206932
+    8:
+      title: A minimally invasive pre-operative measure of total pulmonary resistance
+        is associated with early adverse outcomes following total cavopulmonary connection.
+      year: 2026
+      journal: European heart journal. Imaging methods and practice
+      link: https://doi.org/10.1093/ehjimp/qyag126
+    9:
+      title: 'Real-Time, Inline Quantitative MRI Enabled by Scanner-Integrated Machine
+        Learning: A Proof of Principle With NODDI.'
       year: 2026
       journal: Magnetic resonance in medicine
-      link: https://doi.org/10.1002/mrm.70521
-    5:
-      title: 'Determining the Physiological Threshold for Angina (ORBITA-FIRE): A
-        Double-Blind, Randomized, Placebo-Controlled Study.'
-      year: 2026
-      journal: Circulation
-      link: https://doi.org/10.1161/CIRCULATIONAHA.125.078738
-    6:
-      title: Significance of echocardiographic metrics including TRV and TAPSE/SPAP
-        in mild haemodynamic pulmonary hypertension - data from EVIDENCE-PAH UK.
-      year: 2026
-      journal: Echo research and practice
-      link: https://doi.org/10.1186/s44156-026-00119-1
-    7:
-      title: 'Exploration of Arrhythmia Burden in Cardiac Amyloidosis Using Implantable
-        Loop Recorders: The EXCALIBUR Study.'
-      year: 2026
-      journal: Journal of the American College of Cardiology
-      link: https://doi.org/10.1016/j.jacc.2026.04.030
-    8:
-      title: Myocardial Amyloid Burden in Transthyretin Amyloidosis.
-      year: 2026
-      journal: Journal of the American College of Cardiology
-      link: https://doi.org/10.1016/j.jacc.2025.10.054
-    9:
-      title: Atrial Mechanical Contraction Predicts Cerebrovascular Risk in Patients
-        With Transthyretin Amyloid Cardiomyopathy and Sinus Rhythm.
-      year: 2026
-      journal: Journal of the American College of Cardiology
-      link: https://doi.org/10.1016/j.jacc.2025.12.033
+      link: https://doi.org/10.1002/mrm.70388
     10:
-      title: 'Systemic sclerosis-associated pulmonary arterial hypertension and pulmonary
-        fibrosis: exploring biomarker discriminators with advanced omics in a Caucasian
-        cohort.'
+      title: Reduced regadenoson dose using heart rate-targeted titration in paediatric
+        stress perfusion CMR.
       year: 2026
-      journal: Frontiers in immunology
-      link: https://doi.org/10.3389/fimmu.2026.1755076
+      journal: European heart journal. Imaging methods and practice
+      link: https://doi.org/10.1093/ehjimp/qyag108
