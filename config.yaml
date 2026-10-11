@@ -41,41 +41,41 @@ params:
       journal: Magnetic resonance in medicine
       link: https://doi.org/10.1002/mrm.70521
     3:
+      title: Validation of a Novel, Low-Cost, Portable MRI-Compatible Exercise Device
+        in Healthy Volunteers and Patients With Pulmonary Hypertension.
+      year: 2026
+      journal: NMR in biomedicine
+      link: https://doi.org/10.1002/nbm.70412
+    4:
       title: 'Native T1 for Diagnosis and Risk Prediction in Amyloid Transthyretin
         Cardiomyopathy: An Observational Study on 1,675 Subjects.'
       year: 2026
       journal: JACC. Cardiovascular imaging
       link: https://doi.org/10.1016/j.jcmg.2026.07.026
-    4:
+    5:
       title: 'Exploration of Arrhythmia Burden in Cardiac Amyloidosis Using Implantable
         Loop Recorders: The EXCALIBUR Study.'
       year: 2026
       journal: Journal of the American College of Cardiology
       link: https://doi.org/10.1016/j.jacc.2026.04.030
-    5:
+    6:
       title: Atrial Mechanical Contraction Predicts Cerebrovascular Risk in Patients
         With Transthyretin Amyloid Cardiomyopathy and Sinus Rhythm.
       year: 2026
       journal: Journal of the American College of Cardiology
       link: https://doi.org/10.1016/j.jacc.2025.12.033
-    6:
+    7:
       title: 'The Fontan Circulation: When Net Flow Is Not the Whole Story.'
       year: 2026
       journal: JACC. Basic to translational science
       link: https://doi.org/10.1016/j.jacbts.2026.101703
-    7:
+    8:
       title: Long-term effects of medical therapy pre- and post-pulmonary endarterectomy-insights
         from the UK CURATE registry.
       year: 2026
       journal: 'The Journal of heart and lung transplantation : the official publication
         of the International Society for Heart Transplantation'
       link: https://doi.org/10.1016/j.healun.2026.03.020
-    8:
-      title: Multicenter comparison of hybrid and Norwood procedures in patients with
-        Fontan circulation.
-      year: 2026
-      journal: The Journal of thoracic and cardiovascular surgery
-      link: https://doi.org/10.1016/j.jtcvs.2026.04.005
     9:
       title: 'Oral food challenge unmasks porto-systemic shunting: a case report of
         a novel provocation test for congenital porto-systemic shunts.'
@@ -83,9 +83,8 @@ params:
       journal: European heart journal. Case reports
       link: https://doi.org/10.1093/ehjcr/ytag601
     10:
-      title: 'Repurposing Empagliflozin for Duchenne Muscular Dystrophy-Associated
-        Cardiomyopathy: Protocol for a Pharmacokinetics, Safety and Proof-of-Concept
-        Trial in Children.'
+      title: Multicenter comparison of hybrid and Norwood procedures in patients with
+        Fontan circulation.
       year: 2026
-      journal: Cardiology and therapy
-      link: https://doi.org/10.1007/s40119-026-00456-6
+      journal: The Journal of thoracic and cardiovascular surgery
+      link: https://doi.org/10.1016/j.jtcvs.2026.04.005
