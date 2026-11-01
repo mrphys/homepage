@@ -47,28 +47,28 @@ params:
       journal: NMR in biomedicine
       link: https://doi.org/10.1002/nbm.70412
     4:
+      title: 'The Fontan Circulation: When Net Flow Is Not the Whole Story.'
+      year: 2026
+      journal: JACC. Basic to translational science
+      link: https://doi.org/10.1016/j.jacbts.2026.101703
+    5:
       title: 'Native T1 for Diagnosis and Risk Prediction in Amyloid Transthyretin
         Cardiomyopathy: An Observational Study on 1,675 Subjects.'
       year: 2026
       journal: JACC. Cardiovascular imaging
       link: https://doi.org/10.1016/j.jcmg.2026.07.026
-    5:
+    6:
       title: 'Exploration of Arrhythmia Burden in Cardiac Amyloidosis Using Implantable
         Loop Recorders: The EXCALIBUR Study.'
       year: 2026
       journal: Journal of the American College of Cardiology
       link: https://doi.org/10.1016/j.jacc.2026.04.030
-    6:
+    7:
       title: Atrial Mechanical Contraction Predicts Cerebrovascular Risk in Patients
         With Transthyretin Amyloid Cardiomyopathy and Sinus Rhythm.
       year: 2026
       journal: Journal of the American College of Cardiology
       link: https://doi.org/10.1016/j.jacc.2025.12.033
-    7:
-      title: 'The Fontan Circulation: When Net Flow Is Not the Whole Story.'
-      year: 2026
-      journal: JACC. Basic to translational science
-      link: https://doi.org/10.1016/j.jacbts.2026.101703
     8:
       title: Long-term effects of medical therapy pre- and post-pulmonary endarterectomy-insights
         from the UK CURATE registry.
@@ -77,14 +77,14 @@ params:
         of the International Society for Heart Transplantation'
       link: https://doi.org/10.1016/j.healun.2026.03.020
     9:
-      title: 'Oral food challenge unmasks porto-systemic shunting: a case report of
-        a novel provocation test for congenital porto-systemic shunts.'
-      year: 2026
-      journal: European heart journal. Case reports
-      link: https://doi.org/10.1093/ehjcr/ytag601
-    10:
       title: Multicenter comparison of hybrid and Norwood procedures in patients with
         Fontan circulation.
       year: 2026
       journal: The Journal of thoracic and cardiovascular surgery
       link: https://doi.org/10.1016/j.jtcvs.2026.04.005
+    10:
+      title: 'Oral food challenge unmasks porto-systemic shunting: a case report of
+        a novel provocation test for congenital porto-systemic shunts.'
+      year: 2026
+      journal: European heart journal. Case reports
+      link: https://doi.org/10.1093/ehjcr/ytag601
